@@ -1,0 +1,9 @@
+government = republic
+add_government_reform = peasants_republic 
+government_rank = 1
+technology_group = eastern
+religion = slavic
+primary_culture = russian
+capital = 314
+fixed_capital = 314
+

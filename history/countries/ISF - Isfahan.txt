@@ -1,0 +1,9 @@
+government = monarchy
+#add_government_reform = iqta
+government_rank = 1
+primary_culture = persian
+religion = zoroastrian #shiite
+technology_group = muslim
+capital = 429 # Isfahan
+#religious_school = ismaili_school
+

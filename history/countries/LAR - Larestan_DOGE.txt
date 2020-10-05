@@ -1,0 +1,6 @@
+government = monarchy
+primary_culture = persian
+religion = sunni
+technology_group = muslim
+capital = 2223 # Larestan
+

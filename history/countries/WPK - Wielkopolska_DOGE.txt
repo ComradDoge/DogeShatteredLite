@@ -1,0 +1,5 @@
+government = monarchy
+primary_culture = polish
+religion = catholic
+technology_group = eastern
+capital = 258 # Sieradz

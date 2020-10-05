@@ -1,0 +1,7 @@
+
+government = monarchy
+primary_culture = kanauji
+add_accepted_culture = avadhi
+religion = hinduism
+technology_group = indian
+capital = 524 # Central Doab

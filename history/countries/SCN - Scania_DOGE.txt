@@ -1,0 +1,8 @@
+government = monarchy
+primary_culture = scanian
+religion = catholic
+technology_group = western
+capital = 6	# Lund
+
+
+#

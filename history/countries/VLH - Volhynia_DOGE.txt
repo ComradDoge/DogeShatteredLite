@@ -1,0 +1,7 @@
+government = monarchy
+primary_culture = ruthenian
+religion = orthodox
+technology_group = eastern
+
+capital = 279 # Volhynia
+

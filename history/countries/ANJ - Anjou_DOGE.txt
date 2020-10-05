@@ -1,0 +1,17 @@
+government = monarchy
+#add_government_reform = /
+government_rank = 1
+primary_culture = cosmopolitan_french
+religion = catholic
+technology_group = western
+capital = 178 #Anjou
+
+1427.1.1 = {
+	monarch = {
+		name = "Louis"
+        dynasty = "d'Anjou"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
