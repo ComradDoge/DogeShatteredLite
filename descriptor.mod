@@ -1,4 +1,4 @@
-name="1.30 Doge LITE Shattered"
+name="1.30 Doge LITE Shattered Europa"
 replace_path="history/diplomacy"
 replace_path="common/bookmarks"
 tags={
@@ -10,4 +10,4 @@ tags={
 }
 supported_version="1.30.*.*"
 picture = "thumbnail.png"
-path="mod/DogeEU4"
+path="mod/DogeShatteredLite"
