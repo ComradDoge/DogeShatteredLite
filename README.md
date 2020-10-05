@@ -35,15 +35,7 @@ Macaronesia MCR - A combination of portuguese and morrocans settlers (due to maj
 # STEAM WORKSHOP DESCRIPTION
 [img] https://i.imgur.com/p7Fv1Z6.gif [/img]
 
-This is a much more LITE version of the main Shattered Mod I have. This is for people who want to play shattered in a more vanilla setting. There are still changes to add flavour to the mod.
-
-[h1] Differences from the Main Mod [/h1]
-Vanilla:
-- Idea Groups
-- Estates
-- Ruler Personalities
-- Trade goods and buildings
-- Government Reforms
+This is a much more LITE version of the main Shattered Mod I have. This is for people who want to play shattered in a more vanilla setting. There are still changes to add flavour to the mod and for the shattered setting to work.
 
 [h1] Main Mod [/h1]
 Click [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2152606065] here [/url] to go to the main mod, this is the main mod I am maintaining and updating. 
