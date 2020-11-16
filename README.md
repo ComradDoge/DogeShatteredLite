@@ -33,24 +33,24 @@ Macaronesia MCR - A combination of portuguese and morrocans settlers (due to maj
 
 
 # STEAM WORKSHOP DESCRIPTION
-[img] https://i.imgur.com/p7Fv1Z6.gif [/img]
-
-
-[quote] This is a much more LITE version of the main Shattered Mod I have. This is for people who want to play shattered in a more vanilla setting. There are still changes to add flavour to the mod and for the shattered setting to work. [/quote]
-
+[code]                                  [img] https://i.imgur.com/p7Fv1Z6.gif [/img] [/code]
+[quote] This is a much more lite version of the main Shattered mod I have. It still has some meat to it for flavour and newer game but it is much closer to vanilla and easier to hop in. [/quote]
+[quote]
 [h1] Main Mod [/h1]
-https://steamcommunity.com/sharedfiles/filedetails/?id=2152606065 
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2152606065] Doge Shattered Europa [/url]
 
 [h1] Formables [/h1]
 The possible new formables are on this [url=https://doge.azurewebsites.net/Formables] site [/url]. As of the most recent update there were 37 new formables.
 
 [h1] Discord [/h1]
-Join this [url=https://discord.gg/DwNbtWY] discord [/url] to report bugs or inform me of something or just chill, its a PDX community server of mine. Feel free to send me the save if something breaks. Just note whic mod you are using.
+Join this [url=https://discord.gg/DwNbtWY] discord [/url] to report bugs or inform me of something or just chill, its a PDX community server of mine. 
 
-If you don't like discord just post in the discussion or in the comments.
-
+Feel free to send me the save if something breaks. Just note whic mod you are using.
+[/quote]
+[quote]
 [h1] Credits and Use [/h1]
 
 If you wish to use the shattered base or any of the files in this mod feel free. Just credit me and link to this or the main mod.
 
 Also feel free to message me for questions and just tell me what you are planning to do, always neat to see what others do.
+[/quote]
