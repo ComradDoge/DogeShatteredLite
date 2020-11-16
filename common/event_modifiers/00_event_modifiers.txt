@@ -8011,6 +8011,14 @@ birthplace_of_industrialization = {
 	allowed_num_of_buildings = 1
 }
 
+birthplace_of_nationalism = {
+	culture_conversion_cost = -0.1
+}
+
+birthplace_of_imperialism = {
+	core_creation = -0.05
+}
+
 religious_center = {
 	local_missionary_strength = -0.05
 }
@@ -8848,7 +8856,6 @@ overlord_military_mission = {
 	manpower_recovery_speed = 0.15
 	land_maintenance_modifier = -0.10
 }
-
 ##################################################
 # Harmonized Modifiers
 ##################################################
@@ -8874,9 +8881,29 @@ harmonized_shinto = {
 	religion = yes
 }
 
+harmonized_confucianism = {
+	manpower_in_true_faith_provinces= 0.20
+	religion = yes
+}
+
+harmonized_taoism = {
+	discipline = 0.025
+	religion = yes
+}
+
+harmonized_zen = {
+	diplomatic_reputation = 1
+	religion = yes
+}
+
+harmonized_tantra = {
+	stability_cost_to_declare_war = -1
+	religion = yes
+}
+
 # Religion Groups
 harmonized_pagan = {
-	global_unrest = -0.5
+	global_unrest = -1
 	religion = yes
 }
 
@@ -8887,6 +8914,7 @@ harmonized_jewish_group = {
 
 harmonized_zoroastrian_group = {
 	trade_efficiency = 0.1
+	heir_chance = 0.5
 	religion = yes
 }
 
@@ -8896,12 +8924,12 @@ harmonized_dharmic = {
 }
 
 harmonized_muslim = {
-	trade_efficiency = 0.05
+	trade_efficiency = 0.1
 	religion = yes
 }
 
 harmonized_christian = {
-	stability_cost_modifier = -0.05
+	stability_cost_modifier = -0.1
 	religion = yes
 }
 
@@ -10858,6 +10886,13 @@ estate_brahmins_monopoly_of_incense_mod = {
 }
 
 estate_brahmins_monopoly_of_wool_mod = {
+	local_production_efficiency = -10
+}
+estate_nationalist_monopoly_of_metals_mod = {
+	local_production_efficiency = -10
+}
+
+estate_nationalist_monopoly_of_potatoes_tomatoes_mod = {
 	local_production_efficiency = -10
 }
 

@@ -2,8 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 89  128  68 }
-
+color = { 115  0  37 }
 revolutionary_colors = { 5  13  8 }
 
 historical_idea_groups = {
@@ -74,7 +73,7 @@ monarch_names = {
 	"Friedrich #0" = 10
 	"Alfred #0" = 0
 	"Christian #0" = 0
-	"Jürgen #0" = 0
+	"JÃ¼rgen #0" = 0
 
 	"Georg Friedrich #0" = 40
 	"Albrecht #1 Achilles" = 20
@@ -123,18 +122,18 @@ monarch_names = {
 }
 
 leader_names = {
-	Dick Sell Söll Schwager Fichtelmann Höhrer Rank
-	Gäbelein Bär Degen Färber Simon Wirth Sack
-	Blochberger Födisch Egelkraut Hager Hofmann
-	Grimm Schmidt Däumler
+	Dick Sell SÃ¶ll Schwager Fichtelmann HÃ¶hrer Rank
+	GÃ¤belein BÃ¤r Degen FÃ¤rber Simon Wirth Sack
+	Blochberger FÃ¶disch Egelkraut Hager Hofmann
+	Grimm Schmidt DÃ¤umler
 	Dietsch Ernst Fischer Franck
-	Knörnschild Langheinrich Maier Narr
+	KnÃ¶rnschild Langheinrich Maier Narr
 	Ott Ranck Rudl Seel 
 	Teichmann Weinrich
 }
 
 ship_names = {
-	Marienberg "Julius Echter" Main Höchberg
+	Marienberg "Julius Echter" Main HÃ¶chberg
 	Rimpar Biebelried Eigelstadt Uettingen
 	Gramschatz Wern Bergtheim Kietzingen Ochsenfurth
 	"Friedrich von Ansbach" "Albrecht Achilles"
@@ -142,4 +141,4 @@ ship_names = {
 	Onoldsbach Hohenzollern Kulmbach Bayreuth
 }
 
-army_names = {	"Erste Fränkische Armee" "Armee von $PROVINCE$" }
+army_names = {	"Erste FrÃ¤nkische Armee" "Armee von $PROVINCE$" }

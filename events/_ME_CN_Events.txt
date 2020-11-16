@@ -73,17 +73,9 @@ country_event = {  #New Manufactoring Techniques
 
 		ai_chance = { factor = 0.50 }
 
-		if = {
-			limit = {
-				has_dlc = "Rule Britannia"
-			}
-			change_innovativeness = 5
-		}
-		else = {
-			add_country_modifier = {
-				name = CN_flow_of_innovativeness
-				duration = 3650
-			}
+		add_country_modifier = {
+			name = CN_flow_of_innovativeness
+			duration = 3650
 		}
 	}
 
@@ -369,7 +361,7 @@ province_event = {  #Growth of city
 		owner = {
 			has_country_flag = CN_cool_trade_goods
 		}
-		development = 18
+		development = 25
 		NOT = { has_province_flag = CN_trade_good_event_happened }
 		NOT = {
 			OR = {

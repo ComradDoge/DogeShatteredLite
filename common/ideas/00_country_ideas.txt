@@ -6,7 +6,7 @@
 
 HLR_ideas = {
 	start = {
-		possible_policy = 1
+		
 		diplomatic_reputation = 2
 	}
 	
@@ -143,7 +143,7 @@ GBR_ideas = {
 		governing_capacity_modifier = 0.1
 	}
 	city_upon_a_hill = {
-		global_colonial_growth = 20
+		global_colonial_growth = 15
 	}
 	british_merchant_navy = {
 		global_tariffs = 0.15
@@ -180,7 +180,8 @@ SWE_ideas = {
 
 	kung_och_riksdag = {
 		legitimacy = 1
-		possible_policy = 1
+		free_adm_policy = 1
+		
 	}
 	swedish_steel = {
 		discipline = 0.05
@@ -249,7 +250,7 @@ MOS_ideas = {
 RUS_ideas = {
 	start = {
 		core_creation = -0.10
-		global_manpower_modifier = 0.33
+		global_manpower_modifier = 0.25
 	}
 
 	bonus = {
@@ -274,7 +275,7 @@ RUS_ideas = {
 	}
 	life_long_conscription  = {
 		land_forcelimit_modifier = 0.20 #.5
-		manpower_recovery_speed = 0.25
+		manpower_recovery_speed = 0.20
 	}
 
 	abolish_the_mestnichestvo = {
@@ -297,7 +298,7 @@ CAS_ideas = {
 		allowed_marine_fraction = 0.05
 	}
 	bonus = {
-		global_colonial_growth = 25
+		global_colonial_growth = 15
 	}
 	trigger = {
 		tag = CAS
@@ -776,7 +777,7 @@ POL_ideas = {
 		infantry_power = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
+		cavalry_power = 0.25
 		cav_to_inf_ratio = 0.10
 	}
 	wojsko_komputoe = {
@@ -1073,7 +1074,7 @@ JAP_ideas = {
 		prestige = 1
 	}
 	jap_kaitakudan = {
-		global_colonial_growth = 20
+		global_colonial_growth = 15
 	}
 	jap_great_power_diplomacy = {
 		ae_impact = -0.15
@@ -1184,7 +1185,7 @@ SIC_ideas = {
 	}
 	sic_constitions_of_melfi = {
 		global_unrest = -1
-		possible_policy = 1
+		
 	}
 	sic_noble_admirals = {
 		navy_tradition = 1
@@ -1670,7 +1671,7 @@ ITA_ideas = {
 		galley_power = 0.20
 	}
 	office_of_censor = {
-		global_manpower_modifier = 0.33
+		global_manpower_modifier = 0.25
 	}
 	italian_tax_reform = {
 		global_tax_modifier = 0.15
@@ -3822,7 +3823,7 @@ NAV_ideas = {
 		merc_maintenance_modifier = -0.15
 	}
 	intrepid_pioneers = {
-		global_colonial_growth = 20
+		global_colonial_growth = 15
 	}
 	transatlantic_whaling = {
 		production_efficiency = 0.1
@@ -4233,7 +4234,7 @@ TVE_ideas = {
 		infantry_power = 0.1
 	}
 	tve_national_army = {
-		global_manpower_modifier = 0.33
+		global_manpower_modifier = 0.25
 	}
 }
 
@@ -6106,7 +6107,7 @@ QUE_ideas = {
 
 MEX_ideas = {
 	start = {
-		global_colonial_growth = 15
+		global_colonial_growth = 10
 		inflation_reduction = 0.1
 	}
 	
@@ -6934,7 +6935,7 @@ CHA_ideas = {
 		global_trade_power = 0.1
 	}
 	cha_cham_migrations = {
-		global_colonial_growth = 15
+		global_colonial_growth = 10
 	}
 	cha_che_man_legacy = {
 		improve_relation_modifier = 0.2
@@ -7911,7 +7912,7 @@ MRA_ideas = {
 
 ROM_ideas = {
 	start = {
-		discipline = 0.05
+		discipline = 0.1
 		legitimacy = 1
 	}
 	
@@ -7934,14 +7935,14 @@ ROM_ideas = {
 		stability_cost_modifier = -0.2
 	}
 	roman_legions = {
-		infantry_power = 0.10
-		land_forcelimit_modifier = 0.15
+		infantry_power = 0.15
+		land_forcelimit_modifier = 0.2
 	}
 	roman_architecture = {
 		production_efficiency = 0.2
 	}
 	imperial_bureaucracy = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 	}
 	imperium_sine_fine = {
 		core_creation = -0.20
@@ -7982,7 +7983,7 @@ MNS_ideas = {
 		army_tradition_from_battle = 0.5
 	}
 	mns_overseas_ambition = {
-		global_colonial_growth = 15
+		global_colonial_growth = 10
 	}
 }
 
@@ -9638,7 +9639,7 @@ AKT_ideas = {
 		transport_cost = -0.2
 	}
 	bonus = {
-		global_colonial_growth = 15
+		global_colonial_growth = 10
 	}
 	trigger = {
 		tag = AKT
@@ -11977,7 +11978,7 @@ MCM_ideas = {
 		discipline = 0.05
 	}
 	mcm_fairer_shores = {
-		global_colonial_growth = 15
+		global_colonial_growth = 10
 	}
 	mcm_pirate_haven = {
 		navy_tradition = 1
@@ -13354,7 +13355,7 @@ NZL_ideas = {
 		shock_damage = 0.1
 	}
 	NZL_company = {
-		global_colonial_growth = 25
+		global_colonial_growth = 15
 	}
 	NZL_rejecting_australia = {
 		land_morale = 0.15
@@ -13380,7 +13381,7 @@ ALA_ideas = {
 		development_cost = -0.15
 	}
 	ALA_hard_push_east = {
-		global_colonial_growth = 25
+		global_colonial_growth = 15
 	}
 	ALA_secretary_icebox = {
 		core_creation = -0.2

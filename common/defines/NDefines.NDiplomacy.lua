@@ -17,6 +17,7 @@ NDefines.NDiplomacy.CHANGE_RIVAL_YEARS = 10 --Defines 25
 
 --Great Powers
 NDefines.NDiplomacy.NUM_OF_GREAT_POWERS = 12 -- Default 8
+NDefines.NDiplomacy.HEGEMONY_LOST_DAYS = 3650 -- 10 years
 
 --Wars
 NDefines.NDiplomacy.DISHONORABLE_PEACE_MONTHS = 0 --Default 12. This is the thingie that forces you to wait a year before peacing out.
@@ -35,4 +36,18 @@ NDefines.NDiplomacy.FORCE_JOIN_HRE_AUTHORITY_PER_DEVELOPMENT = 0.05
 NDefines.NDiplomacy.FORCE_JOIN_HRE_YEARS_BOUND_BY_TREATY = 50 
 
 
-NDefines.NDiplomacy.HRE_VOTE_TOO_SMALL = -15 -- -25
+NDefines.NDiplomacy.HRE_VOTE_ENEMY = -200
+NDefines.NDiplomacy.HRE_VOTE_LEGUE_ENEMY = -200
+NDefines.NDiplomacy.HRE_VOTE_LEAGUE_LEADER = 100
+NDefines.NDiplomacy.HRE_VOTE_LEAGUE_LEADER_FRIEND = 200
+NDefines.NDiplomacy.HRE_VOTE_HERETIC = -10 -- -50
+NDefines.NDiplomacy.HRE_VOTE_OVERLORD = 100 -- 50
+NDefines.NDiplomacy.HRE_VOTE_VASSAL_ELECTOR = -100 -- -50
+NDefines.NDiplomacy.HRE_VOTE_TOO_SMALL = -10 -- -25
+NDefines.NDiplomacy.HRE_VOTE_BIG_COUNTRY = 25
+NDefines.NDiplomacy.HRE_VOTE_VERY_BIG_COUNTRY = 50
+NDefines.NDiplomacy.HRE_VOTE_NON_MEMBER = -100 -- -50
+NDefines.NDiplomacy.HRE_VOTE_SAME_CULTURE_GROUP = 5
+NDefines.NDiplomacy.HRE_VOTE_ALLIANCE = 30
+NDefines.NDiplomacy.HRE_VOTE_ROYAL_MARRIAGE = 25 -- 10
+NDefines.NDiplomacy.HRE_VOTE_CORE_CLAIM = -100 -- -50

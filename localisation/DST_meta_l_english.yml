@@ -1,0 +1,67 @@
+﻿l_english:
+
+ TNS: "FAKE COUNTRY"
+
+###############
+###############
+###############
+# Modifiers #
+###############
+
+aicheat: "Gods' Grace"
+meta_add_culture_amount_4: "Cultural Acceptance"
+meta_one_missionary: "1 Missionary Fix"
+meta_two_missionary: "2 Missionary Fix"
+meta_three_missionary: "3 Missionary Fix"
+
+###############
+###############
+###############
+# Info Events #
+###############
+
+dse_meta_info.1.t: "§T1.30 Doge Shattered Europe§!"
+dse_meta_info.1.d: "Welcome to Shattered Europe! Thank you very much for trying out my version of Shattered and I hope you enjoy it.\n\nFeel free to message me if your campaign crashes, I might be able to fix it."
+dse_meta_info.1.o1: "Alright"
+
+dse_meta_info.2.t: "§TCombat Width Reduction§!"
+dse_meta_info.2.d: "The mod changes how combat width progress in the late game, instead of going up it decreases back to 30 to simulate the decrease of numerical advantage and increase of fire power. Unfortunately, the game does not show negative combat width in the tech screen, however whenever you get the mil tech you will see the changed width in the military tab.\n\n\nThe combat width changes are at:\n34/-2\n37/-3\n38/-2\n40/-3"
+dse_meta_info.2.o1: "Got It"
+##############
+##############
+##############
+# Fix Events #
+##############
+
+dse_meta_fixes.1.t: "META Culture Change"
+dse_meta_fixes.1.d: "This to change culture to reset dynamic naming"
+dse_meta_fixes.nothing: "Cancel"
+dse_meta_fixes_culture.1.o1: "French"
+dse_meta_fixes_culture.1.o2: "Vinlandic"
+dse_meta_fixes_culture.1.o3: "Saxon"
+
+dse_meta_fixes.2.t: "META Missionary Modifiers"
+dse_meta_fixes.2.d: "This is to add a permanent missionary."
+dse_meta_fixes.2.o1: "1 Missionary Modifier"
+dse_meta_fixes.2.o2: "Remove 1 Missionary Modifier"
+
+dse_meta_fixes.3.t: "META Missionary Modifiers"
+dse_meta_fixes.3.d: "This is to add a permanent missionary."
+dse_meta_fixes.3.o1: "2 Missionary Modifier"
+dse_meta_fixes.3.o2: "Remove 2 Missionary Modifier"
+
+dse_meta_fixes.4.t: "META Missionary Modifiers"
+dse_meta_fixes.4.d: "This is to add a permanent missionary."
+dse_meta_fixes.4.o1: "3 Missionary Modifier"
+dse_meta_fixes.4.o2: "Remove 3 Missionary Modifier"
+
+
+
+
+#############
+#############
+#############
+# Decisions #
+############# 
+the_fix_title: "§RME:§! Refresh Missions"
+the_fix_desc: "This is to sometimes refresh missions if they bug out or break after my updates. Check your missions if they have changed, if nothing is happening after clicking this then nothing was supposed to happen."
