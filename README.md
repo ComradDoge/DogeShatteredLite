@@ -54,3 +54,10 @@ If you wish to use the shattered base or any of the files in this mod feel free.
 
 Also feel free to message me for questions and just tell me what you are planning to do, always neat to see what others do.
 [/quote]
+
+[quote]
+[h1]Other Simillar Mods [/h1]
+In case I stop or forget to update this version, considering my main focus is the other bigger mod. Or if you just want to check out something simillar feel free to check out Viking_Nephilims version of shattered (same base) which is quite lite but more religion focused.
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2262234791] Viking_Nephilim Shattered [/url]
+[/quote]
