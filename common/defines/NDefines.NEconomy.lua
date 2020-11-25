@@ -7,7 +7,7 @@
 
 --Economy
 NDefines.NEconomy.DEBASE_MAX_CORRUPTION = 30 -- Default 90, Above this level of corruption, you won't be able to Debase Currency.
-NDefines.NEconomy.MAX_BUILDING_SLOTS = 16 --12
+--NDefines.NEconomy.MAX_BUILDING_SLOTS = 16 --12
 NDefines.NEconomy.INFLATION_FROM_LOAN = 0.2
 
 --Trade
