@@ -1,4 +1,4 @@
-aicheat = {
+aicheat = { # NOT USED
 	potential = {
 		NOT = {
 			tag = REB
@@ -9,7 +9,7 @@ aicheat = {
 		#current_age = age_of_discovery
 	}
 	trigger = {
-		always = no
+		always = yes
 	}
 	
 	#land
@@ -27,18 +27,19 @@ aicheat = {
 	#naval_forcelimit_modifier = 0.04
 	
 	#income
-	global_tax_modifier = 0.10
-	production_efficiency = 0.10
-	trade_efficiency = 0.10
+	#global_tax_modifier = 0.10
+	#production_efficiency = 0.10
+	#trade_efficiency = 0.10
 	
 	#expenses
-	advisor_cost = -0.30
-	state_maintenance_modifier = -0.10
+	advisor_cost = -0.1
+	build_cost = -0.25
+	state_maintenance_modifier = -0.2
 	interest = -1
 	#diplomatic expenses
-	fort_maintenance_modifier = -0.10
+	#fort_maintenance_modifier = -0.10
 	#colonial maintenance
-	missionary_maintenance_cost = -0.10
+	missionary_maintenance_cost = -0.2
 	#root out corruption
 	land_maintenance_modifier = -0.10
 	merc_maintenance_modifier = -0.10
@@ -46,8 +47,12 @@ aicheat = {
 	naval_maintenance_modifier = -0.10
 	
 	#other
-	free_policy = 3
-	global_unrest = -3
+	all_power_cost = -0.1
+	free_policy = 2
+	country_admin_power = 1
+    country_diplomatic_power = 1
+    country_military_power = 1
+	#global_unrest = -3
 }
 
 AIPolicyAge_Of_Absolutism = {
@@ -59,7 +64,37 @@ AIPolicyAge_Of_Absolutism = {
 		current_age = age_of_absolutism
 		is_at_war =  yes
 	}
+	free_adm_policy = 1
+	free_dip_policy = 1
 	free_mil_policy = 1
+}
+
+AIPolicyAge_Of_Enlightenment = {
+	potential = {
+		ai = yes
+	}
+	trigger = {
+		ai = yes
+		current_age = age_of_enlightenment
+		is_at_war =  yes
+	}
+	free_adm_policy = 2
+	free_dip_policy = 2
+	free_mil_policy = 2
+}
+
+AIPolicyAge_Of_Industrial = {
+	potential = {
+		ai = yes
+	}
+	trigger = {
+		ai = yes
+		current_age = industrial_age
+		is_at_war =  yes
+	}
+	free_adm_policy = 3
+	free_dip_policy = 3
+	free_mil_policy = 3
 }
 
 AIPolicyAge_Of_Revolutions = {
@@ -71,5 +106,7 @@ AIPolicyAge_Of_Revolutions = {
 		current_age = age_of_revolutions
 		is_at_war =  yes
 	}
-	free_mil_policy = 2
+	free_adm_policy = 4
+	free_dip_policy = 4
+	free_mil_policy = 4
 }

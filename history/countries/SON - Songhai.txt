@@ -1,7 +1,8 @@
 government = monarchy
-add_government_reform = iqta
+government_rank = 1
+#add_government_reform = iqta
 primary_culture = songhai
-religion = sunni
+religion = bidaism
 technology_group = sub_saharan
 unlock_cult = yemoja_cult
 unlock_cult = roog_cult

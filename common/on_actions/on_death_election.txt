@@ -1,0 +1,30 @@
+
+
+on_death_election = {
+	if = {
+		limit = { has_reform = presidential_despot_reform }
+		remove_government_reform = presidential_despot_reform
+		if = {
+			limit = { NOT = { has_dlc = "Dharma" } }
+			set_legacy_government = oligarchic_republic
+		}
+	}
+	if = {
+		limit = {
+			has_reform = pirate_republic_reform
+		}
+		set_country_flag = pirate_death_election
+		country_event = { id = pirates.1 }
+	}
+	events = {
+		701		# Election event
+		elections.721		# Dutch Republic
+		elections.800	# Lottery election
+
+ 
+ # Government Expanded
+		#elections.7002 #GE
+		GE_electoral_monarchy.1
+		GE_electoral_monarchy.2
+	}
+}

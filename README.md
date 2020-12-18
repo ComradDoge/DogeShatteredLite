@@ -34,16 +34,16 @@ Macaronesia MCR - A combination of portuguese and morrocans settlers (due to maj
 
 # STEAM WORKSHOP DESCRIPTION
 [code]                                  [img] https://i.imgur.com/p7Fv1Z6.gif [/img] [/code]
-[quote] This is a much more lite version of the main Shattered mod I have. It still has some meat to it for flavour and newer game but it is much closer to vanilla and easier to hop in. [/quote]
+[quote] This is a much more lite version of the main Shattered mod I have. It still has some meat to it for flavour (religion and government reforms + some missions) and newer game but it is much closer to vanilla and easier to hop in. [/quote]
 [quote]
 [h1] Main Mod [/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2152606065] Doge Shattered Europa [/url]
 
 [h1] Formables [/h1]
-The possible new formables are on this [url=https://doge.azurewebsites.net/Formables] site [/url]. As of the most recent update there were 37 new formables.
+The possible new formables are on this [url=https://comraddoge.wordpress.com/shattered-formables] site [/url]. As of the most recent update there were 49 new formables.
 
 [h1] Discord [/h1]
-Join this [url=https://discord.gg/DwNbtWY] discord [/url] to report bugs or inform me of something or just chill, its a PDX community server of mine. 
+Join this [url=https://discord.gg/DwNbtWY] discord [/url] to report bugs, inform me of something or just chill, its a PDX community server of mine. 
 
 Feel free to send me the save if something breaks. Just note whic mod you are using.
 [/quote]

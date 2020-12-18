@@ -706,7 +706,7 @@ country_event = { #liberation of syria # DISABLED EVENT
 	option = {
 		name = ME_Ottoman_Events.10.a
 		hidden_effect = {
-			#set_current_mamluk_autonomy = yes
+			set_current_mamluk_autonomy = yes
 		}
 		custom_tooltip = mamluk_autonomy_downgraded_by_5
 		every_owned_province = {

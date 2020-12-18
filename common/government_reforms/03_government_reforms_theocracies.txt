@@ -264,7 +264,7 @@ monastic_breweries_reform = {
 					add_province_modifier = { 
 						name = wine_bonus_prod
 						duration = -1
-						hidden = yes
+						#hidden = yes
 					}
 				}
 				if = {
@@ -274,7 +274,7 @@ monastic_breweries_reform = {
 					add_province_modifier = { 
 						name = grain_bonus_prod
 						duration = -1
-						hidden = yes
+						#hidden = yes
 					}
 				}
 			}
@@ -726,7 +726,13 @@ admiral_king_reform = {
 church_and_state_reform = {
 	potential = {
 		NOT = {
-			religion_group = pagan
+			OR = {
+				religion_group = pagan
+				religion_group = european_pagan
+				religion_group = african_pagan
+				religion_group = asian_pagan
+				religion_group = american_pagan
+			}
 		}
 	}
 	icon = "church_and_state_reform"
@@ -742,7 +748,13 @@ church_and_state_reform = {
 god_and_man_reform = {
 	potential = {
 		NOT = {
-			religion_group = pagan
+			OR = {
+				religion_group = pagan
+				religion_group = european_pagan
+				religion_group = african_pagan
+				religion_group = asian_pagan
+				religion_group = american_pagan
+			}
 		}
 	}
 	icon = "religious_leader"
@@ -761,7 +773,13 @@ religious_harmony_reform = {
 	allow_normal_conversion = yes
 	trigger = {
 		OR = {
-			religion_group = pagan
+			OR = {
+				religion_group = pagan
+				religion_group = european_pagan
+				religion_group = african_pagan
+				religion_group = asian_pagan
+				religion_group = american_pagan
+			}
 			has_idea_group = humanist_ideas
 		}
 	}
@@ -777,10 +795,22 @@ organising_our_religion_reform = {
 	icon = "organising_our_religion_reform"
 	allow_normal_conversion = yes
 	potential = {
-		religion_group = pagan
+		OR = {
+			religion_group = pagan
+			religion_group = european_pagan
+			religion_group = african_pagan
+			religion_group = asian_pagan
+			religion_group = american_pagan
+		}
 	}
 	trigger = {
-		religion_group = pagan
+		OR = {
+			religion_group = pagan
+			religion_group = european_pagan
+			religion_group = african_pagan
+			religion_group = asian_pagan
+			religion_group = american_pagan
+		}
 	}
 	
 	modifiers = {
@@ -799,12 +829,24 @@ religion_in_one_country_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = {
+			OR = {
 			religion_group = pagan
+			religion_group = european_pagan
+			religion_group = african_pagan
+			religion_group = asian_pagan
+			religion_group = american_pagan
+		}
 		}
 	}
 	trigger = {
 		NOT = {
+			OR = {
 			religion_group = pagan
+			religion_group = european_pagan
+			religion_group = african_pagan
+			religion_group = asian_pagan
+			religion_group = american_pagan
+		}
 		}
 	}
 	modifiers = {
@@ -821,13 +863,25 @@ religious_permanent_revolution_reform = {
 	potential = {
 		NOT = {
 			religion = confucianism
+			OR = {
 			religion_group = pagan
+			religion_group = european_pagan
+			religion_group = african_pagan
+			religion_group = asian_pagan
+			religion_group = american_pagan
+		}
 		}
 	}
 	trigger = {
 		NOT = {
 			religion = confucianism
+			OR = {
 			religion_group = pagan
+			religion_group = european_pagan
+			religion_group = african_pagan
+			religion_group = asian_pagan
+			religion_group = american_pagan
+		}
 		}
 	}
 	effect = {
@@ -860,10 +914,21 @@ priestly_autonomy_reform = {
 	icon = "strength_of_the_khalsa"
 	allow_normal_conversion = yes
 	potential = {
-		religion_group = pagan
+		OR = {
+			religion_group = pagan
+			religion_group = european_pagan
+			religion_group = african_pagan
+			religion_group = asian_pagan
+			religion_group = american_pagan
+		}
 	}
 	trigger = {
-		religion_group = pagan
+		OR = {
+			religion_group = european_pagan
+			religion_group = african_pagan
+			religion_group = asian_pagan
+			religion_group = american_pagan
+		}
 	}
 	
 	modifiers = {
@@ -878,10 +943,22 @@ proclaim_religious_head_reform = {
 	icon = "shaman"
 	allow_normal_conversion = yes
 	potential = {
-		religion_group = pagan
+		OR = {
+			religion_group = pagan
+			religion_group = european_pagan
+			religion_group = african_pagan
+			religion_group = asian_pagan
+			religion_group = american_pagan
+		}
 	}
 	trigger = {
-		religion_group = pagan
+		OR = {
+			religion_group = pagan
+			religion_group = european_pagan
+			religion_group = african_pagan
+			religion_group = asian_pagan
+			religion_group = american_pagan
+		}
 		custom_trigger_tooltip = {
 			tooltip = no_other_head_tt
 			NOT = {

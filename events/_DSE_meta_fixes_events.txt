@@ -10,10 +10,7 @@ country_event = {
     title = dse_meta_fixes.1.t
     desc = dse_meta_fixes.1.d
     picture = ARTWORK_eventPicture
-    fire_only_once = yes
-    mean_time_to_happen = {
-        days = 0
-    }
+    is_triggered_only = yes
     trigger = {
         always = no
     }
@@ -44,10 +41,7 @@ country_event = {
     title = dse_meta_fixes.2.t
     desc = dse_meta_fixes.2.d
     picture = ARTWORK_eventPicture
-    fire_only_once = yes
-    mean_time_to_happen = {
-        days = 0
-    }
+    is_triggered_only = yes
     trigger = {
         always = no
     }
@@ -61,9 +55,7 @@ country_event = {
     }
     option = {
         name = "dse_meta_fixes.2.o2"
-        remove_country_modifier = {
-            name = meta_one_missionary
-        }
+        remove_country_modifier = meta_one_missionary
     }
 }
 
@@ -73,10 +65,8 @@ country_event = {
     title = dse_meta_fixes.3.t
     desc = dse_meta_fixes.3.d
     picture = ARTWORK_eventPicture
-    fire_only_once = yes
-    mean_time_to_happen = {
-        days = 0
-    }
+    is_triggered_only = yes
+
     trigger = {
         always = no
     }
@@ -90,9 +80,7 @@ country_event = {
     }
     option = { 
         name = "dse_meta_fixes.3.o2"
-        remove_country_modifier = {
-            name = meta_two_missionary
-        }
+        remove_country_modifier = meta_two_missionary
     }
 }
 
@@ -102,10 +90,8 @@ country_event = {
     title = dse_meta_fixes.4.t
     desc = dse_meta_fixes.4.d
     picture = ARTWORK_eventPicture
-    fire_only_once = yes
-    mean_time_to_happen = {
-        days = 0
-    }
+    is_triggered_only = yes
+
     trigger = {
         always = no
     }
@@ -119,8 +105,6 @@ country_event = {
     }
     option = {
         name = "dse_meta_fixes.4.o2"
-        remove_country_modifier = {
-            name = meta_three_missionary
-        }
+        remove_country_modifier = meta_three_missionary
     }
 }

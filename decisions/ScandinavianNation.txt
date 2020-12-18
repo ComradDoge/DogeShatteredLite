@@ -13,6 +13,7 @@ country_decisions = {
 			NOT = { exists = SCA }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
+			NOT = { tag = DAE }
 			culture_group = scandinavian
 			OR = {
 				ai = no
@@ -46,7 +47,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			adm_tech = 20
+			adm_tech = 10
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no

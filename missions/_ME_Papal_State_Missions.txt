@@ -488,7 +488,7 @@ PAP_missions_2_2 = {
 			}
 		}
 		effect = {
-			add_prestige = 10
+			add_prestige = 10#
 			set_country_flag = Kingdom_Of_Many
 			country_event = { id = ME_Papal_State_Events.2 }
 		}
@@ -566,7 +566,7 @@ PAP_missions_2_2 = {
 		trigger = {
 			OR = {
 				current_age = age_of_absolutism
-				current_age = age_of_revolutions
+				current_age = age_of_enlightenment
 			}
 			OR = {
 				religious_ideas = 7

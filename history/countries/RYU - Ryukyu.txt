@@ -1,7 +1,8 @@
 government = monarchy
+government_rank = 1
 #add_government_reform = autocracy_reform
 technology_group = chinese
-religion = animism
+religion = dayawism
 primary_culture = kyushuan
 capital = 1015	# Shuri
 
@@ -323,7 +324,7 @@ capital = 1015	# Shuri
 }
 
 1609.4.5 = {
-	government_rank = 1
+	
 }
 
 1620.10.14 = {

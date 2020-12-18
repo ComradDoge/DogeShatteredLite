@@ -5,7 +5,7 @@ eastern = {
 	flag_emblem_index_range = { 58 80 }
 
 	buddhism = { #Theravada
-		color = { 244 196 48 }
+		color = { 153 76 0  }
 		icon = 24
 		allowed_conversion = {
 			vajrayana
@@ -28,7 +28,7 @@ eastern = {
 			}
 		}
 		
-		heretic = { CONFUCIANISM TAOISM TANTRA MAHAYANA SHINTO THERAVADA }
+		heretic = { CONFUCIANISM TAOISM TANTRA MAHAYANA THERAVADA }
 		
 		harmonized_modifier = harmonized_buddhism
 		
@@ -59,7 +59,7 @@ eastern = {
 			}
 		}
 		
-		heretic = { CONFUCIANISM TAOISM TANTRA MAHAYANA SHINTO THERAVADA }
+		heretic = { CONFUCIANISM TAOISM TANTRA MAHAYANA THERAVADA }
 		
 		uses_karma = yes
 	
@@ -67,7 +67,7 @@ eastern = {
 	}
 	
 	mahayana = {
-		color = { 204 119 34 }
+		color = { 255 130 60 }
 		icon = 23
 		allowed_conversion = {
 			vajrayana
@@ -92,7 +92,7 @@ eastern = {
 		
 		harmonized_modifier = harmonized_mahayana
 		
-		heretic = { CONFUCIANISM TAOISM TANTRA SHINTO THERAVADA VAJRAYANA }
+		heretic = { CONFUCIANISM TAOISM TANTRA THERAVADA VAJRAYANA }
 		
 		uses_karma = yes
 	}
@@ -108,10 +108,11 @@ eastern = {
 			adm_tech_cost_modifier = -0.1
 			stability_cost_modifier = -0.1
 		}
-		heretic = { TAOISM TANTRA MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		heretic = { TAOISM TANTRA MAHAYANA THERAVADA VAJRAYANA }
 		harmonized_modifier = harmonized_confucianism
 		uses_harmony = yes
 	}
+
 	taoism = {
 		color = { 13 229 167 }
 		icon = 63
@@ -123,25 +124,27 @@ eastern = {
 			tolerance_heretic = 2
 			stability_cost_modifier = -0.1
 		}
-		heretic = { CONFUCIANISM TANTRA MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		heretic = { CONFUCIANISM TANTRA MAHAYANA THERAVADA VAJRAYANA }
 		harmonized_modifier = harmonized_taoism
 		uses_harmony = yes
 	}
+
 	zen = {
 		color = { 113 29 197 }
 		icon = 7
 		country = {
 			monthly_splendor = 1
-			power_projection_from_insults = 0.1
+			power_projection_from_insults = 1
 		}
 		country_as_secondary = {
 			tolerance_heathen = 1
 			religious_unity = 0.25
 		}
-		heretic = { CONFUCIANISM TAOISM MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		heretic = { CONFUCIANISM TAOISM MAHAYANA THERAVADA VAJRAYANA }
 		harmonized_modifier = harmonized_zen
 		uses_harmony = yes
 	}
+	
 	shinto = {
 		color = { 190 0 38 }
 		icon = 10
@@ -173,10 +176,29 @@ eastern = {
 			tolerance_heretic = 1
 			years_of_nationalism = -3
 		}
-		heretic = { CONFUCIANISM TAOISM MAHAYANA SHINTO THERAVADA VAJRAYANA }
+		heretic = { CONFUCIANISM TAOISM MAHAYANA THERAVADA VAJRAYANA bon }
 		harmonized_modifier = harmonized_tantra
 		uses_harmony = yes
 	}
+
+	bon = {
+		color = { 8 140 131 }
+		icon = 60
+		country = {
+			tolerance_heretic = 1
+			shock_damage_received = -0.1
+		}
+		country_as_secondary = {
+			horde_unity = 1
+			shock_damage_received = -0.1
+		}
+		province = {
+			local_defensiveness = 0.1
+		}
+		
+		heretic = { tantra }
+		uses_karma = yes
+    }
 	
 	crusade_name = CRUSADE
 	

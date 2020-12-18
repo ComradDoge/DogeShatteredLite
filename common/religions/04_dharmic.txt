@@ -5,7 +5,7 @@ dharmic = {
 	flag_emblem_index_range = { 61 82 } #Many shared with Eastern
 
 	hinduism = {
-		color = { 255 150 40 }
+		color = { 255 120 40 }
 		icon = 8
 		allowed_conversion = {
 			sikhism
@@ -52,7 +52,7 @@ dharmic = {
 			global_unrest = -1
 		}
 		province = {
-			local_missionary_strength = -0.01
+			local_missionary_strength = -0.02
 		}
 		
 		on_convert = {

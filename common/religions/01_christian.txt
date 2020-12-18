@@ -18,6 +18,7 @@ christian = {
 		allowed_conversion = {
 			reformed
 			protestant
+			
 		}
 		country = {
 			tolerance_own = 1
@@ -46,7 +47,7 @@ christian = {
 		
 		}
 		
-		heretic = { BOGOMILIST WALDENSIAN FRATICELLI LOLLARD SOCINIAN }
+		heretic = { bogomilist lollard waldensian anglican protestant reformed malankara orthodox coptic malankara hussite cathar  }
 		
 		papacy = {
 			papal_tag = PAP
@@ -318,6 +319,7 @@ christian = {
 
 		allowed_center_conversion = {
 			catholic
+			protestant
 		}
 		country = {
 			development_cost = -0.1
@@ -339,7 +341,7 @@ christian = {
 		}
 		aspects_name = ANGLICAN_ASPECTS
 		
-		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
+		heretic = { bogomilist lollard waldensian catholic protestant reformed malankara orthodox coptic malankara hussite cathar }
 		
 		date = 1534.11.3 # act of supremacy
 	}
@@ -350,6 +352,9 @@ christian = {
 
 		allowed_center_conversion = {
 			catholic
+			protestant
+			reformed
+			
 		}
 		country = {
 			shock_damage_received = -0.05
@@ -376,7 +381,7 @@ christian = {
 		}
 		aspects_name = PROTESTANT_ASPECTS
 		
-		heretic = { TABORITE UTRAQUIST ORPHAN }
+		heretic = { bogomilist lollard waldensian anglican protestant reformed malankara orthodox coptic malankara catholic cathar }
 	}
 	
 	protestant = {
@@ -391,8 +396,7 @@ christian = {
 			catholic
 		}
 		country = {
-			global_tax_modifier = 0.1
-			improve_relation_modifier = 0.15
+			improve_relation_modifier = 0.2
 			church_loyalty_modifier = 0.1
 		}
 		
@@ -512,7 +516,7 @@ christian = {
 			}
 		}
 		
-		heretic = { PENTECOSTAL PURITAN CONGREGATIONALIST }
+		heretic = { bogomilist lollard waldensian anglican catholic reformed malankara orthodox coptic malankara hussite cathar }
 		
 		date = 1517.10.31
 	}
@@ -529,7 +533,7 @@ christian = {
 		}
 		country = {
 			tolerance_heretic = 2
-			advisor_pool = 1
+			advisor_pool = 2
 		}
 		
 		country_as_secondary = {
@@ -629,7 +633,7 @@ christian = {
 			}
 		}
 		
-		heretic = { METHODIST BAPTIST QUAKER }
+		heretic = { bogomilist lollard waldensian anglican protestant catholic malankara orthodox coptic malankara hussite cathar }
 		
 		date = 1536.5.1
 		
@@ -644,7 +648,7 @@ christian = {
 			tolerance_own = 1
 		}
 		country_as_secondary = {
-			global_colonial_growth = 10
+			global_colonial_growth = 15
 			tolerance_own = 1
 		}
 		province = {
@@ -652,7 +656,7 @@ christian = {
 		}
 		
 		
-		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
+		heretic = { bogomilist lollard waldensian anglican protestant reformed malankara catholic coptic malankara hussite cathar }
 		
 		has_patriarchs = yes		# Uses patriarch authority
 		misguided_heretic = yes		# Other christians hate them less
@@ -789,7 +793,7 @@ christian = {
 			local_missionary_strength = -0.02
 		}
 		
-		heretic = { ZAMIKAELITES STEPHANITES EUSTATHIANS }
+		heretic = { bogomilist lollard waldensian anglican protestant reformed malankara orthodox catholic malankara hussite cathar }
 		
 		misguided_heretic = yes
 		
@@ -848,9 +852,13 @@ christian = {
 			yearly_corruption = -0.1
 			advisor_pool = 1
 		}
+
+		province = {
+			local_missionary_strength = -0.02
+		}
 		hre_heretic_religion = yes
 		
-		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE LOLLARD SOCINIAN }
+		heretic = { bogomilist lollard waldensian anglican protestant reformed malankara orthodox coptic malankara hussite catholic }
 		
 		uses_church_power = yes				# Uses church power/aspect mechanics
 		aspects = {
@@ -878,6 +886,7 @@ christian = {
 		
 		}
 	}
+
 	fraticelli = {
 		color = { 0.7 0.7 0.4 }
 		icon = 35
@@ -1073,6 +1082,7 @@ christian = {
 			}			
 		}
 	}
+
 	messalian = {
 		color = { 0.6 0.1 0.4 }
 		icon = 33
@@ -1095,12 +1105,13 @@ christian = {
 		
 		misguided_heretic = yes		# Other christians hate them less
 	}
+
 	waldensian = {
 		color = { 30 65 20 }
 		icon = 36
 		allowed_conversion = {
-			reformed
 			protestant
+			reformed
 		}
 		country = {
 			tolerance_heretic = 2
@@ -1109,7 +1120,7 @@ christian = {
 		
 		country_as_secondary = {
 			global_unrest = -1
-			technology_cost = -0.1
+			technology_cost = -0.05
 		}
 		
 		hre_heretic_religion = yes
@@ -1131,43 +1142,58 @@ christian = {
 			}			
 		}
 	}
+
 	lollard = {
-		color = { 0.5 0.8 0.8 }
+		color = { 0 191 255 }
 		icon = 37
 		allowed_conversion = {
-			reformed
 			protestant
+			reformed
+			waldensian
 		}
 		country = {
 			tolerance_own = 2
-			stability_cost_modifier = -0.2
+			enforce_religion_cost = -0.5
 		}
 		province = {
-			local_tax_modifier = -0.1
+			local_tax_modifier = -0.15
 		}
 		country_as_secondary = {
-			stability_cost_modifier = -0.2
+			enforce_religion_cost = -0.5
 		}
-		hre_heretic_religion = yes
-		
-		personal_deity = yes
-		
-		heretic = { BOGOMILIST WALDENSIAN FRATICELLI HUSSITE SOCINIAN }
-		
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+			poor_preachers
+			supplication_for_beggars
+			rejection_of_papal_pardons
+			opposition_of_pilgramage
+			charity_of_faith
+			sale_of_temple_trappings
+			blessing_the_army
+			lollard_knights
+			denounce_the_pope
+			educate_the_masses
+		}
+		heretic = { bogomilist catholic waldensian anglican protestant reformed malankara orthodox coptic malankara hussite cathar }
+
 		on_convert = {
 			change_religion = lollard
 			add_prestige = -100
-			
-			remove_country_modifier = the_test_act
-			remove_country_modifier = superintendent_office
-			remove_country_modifier = the_popery_act
-			
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
 			add_country_modifier = {
 				name = "conversion_zeal"
 				duration = 3650
-			}			
-		
-		}
+			}
+		}		
+	
+		set_country_flag = reformation_money
 	}
 
 	monophysite = {
@@ -1197,47 +1223,135 @@ christian = {
 			will_of_the_martyrs
 		}
 	}
+
 	bogomilist = {
-		color = { 0.7 0 0.2 }
+		color = { 20 170 140  }
 		icon = 39
 		country = {
 			stability_cost_modifier = -0.1
-			land_morale = 0.1
+			land_morale = 0.075
 		}
-		 province = { 
-            local_missionary_strength = -0.02
-            local_unrest = -1
-        }
+		province = { 
+			local_missionary_strength = -0.02
+			local_unrest = -1
+		}
 		country_as_secondary = {
 			stability_cost_modifier = -0.10
 			tolerance_own = 1
 		}
-		heretic = { OLD_BELIEVER MOLOKAN DUKHOBOR KHLYST SKOPTSY ICONOCLAST }
-		
-		uses_church_power = no				# Uses church power/aspect mechanics
-		aspects = {
-			organised_through_bishops_aspect
-			priests_may_marry_aspect
-			adult_baptism_aspect
-			holy_sacraments_aspect
-			saints_accept_prayers_aspect
-			icons_images_aspect
-			legalised_divorces_aspect
-			heretics_deported_aspect
-			parish_registers_aspect
-			individual_creeds_aspect
-			allow_usury_aspect
-			translated_bibles_aspect
-		}
-		
-		misguided_heretic = yes		# Other christians hate them less
-	}
+		heretic = { catholic lollard waldensian anglican protestant reformed malankara orthodox coptic malankara hussite cathar }
+		has_patriarchs = yes
+		orthodox_icons = {
+			# If no icon has ai_will_do above 1 - <current patriarch authority> , the AI will not enact it. (60% PA = 0.6 -> ai_will_do has to be at least 0.4)
+			icon_michael = {
+				army_tradition = 0.5
+				defensiveness = 0.25
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						is_at_war = no
+					}
+					modifier = {
+						factor = 3
+						is_in_important_war = yes
+					}
+				}
+			}
+			icon_eleusa = {
+				monthly_splendor = 1
+				power_projection_from_insults = 0.5
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 1
+					modifier = {
+						factor = 0
+						NOT = {
+							calc_true_if = {
+								all_owned_province = {
+									unrest = 1
+								}
+								amount = 2
+							}
+						}
+					}
+					modifier = {
+						factor = 3
+						calc_true_if = {
+							all_owned_province = {
+								unrest = 1
+							}
+							amount = 5
+						}
+					}
+				}
+			}
+			icon_pancreator = {
+				inflation_reduction = 0.1
+				interest = -0.5
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 0
+				}
+			}
+			icon_nicholas = {
+				governing_capacity_modifier = 0.2
+				state_governing_cost = -0.2
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 0.5
+				}
+			}
+			icon_climacus = {
+				innovativeness_gain = 0.5
+				institution_spread_from_true_faith = 0.1
+				allow = {
+					always = yes
+				}
+				ai_will_do = {
+					factor = 0.8
+					modifier = {
+						factor = 0
+						NOT = {
+							calc_true_if = {
+								all_owned_province = {
+									current_institution = 1
+									NOT = { current_institution = 95 }
+								}
+								amount = 1
+							}
+						}
+					}
+					modifier = {
+						factor = 3
+						calc_true_if = {
+							all_owned_province = {
+								current_institution = 1
+								NOT = { current_institution = 95 }
+							}
+							amount = 5
+						}
+					}
+				}
+			}
+		}		
+	}		
+
 	monothelite = {
 		color = { 0.5 0 0.3 }
 		icon = 40
 		country = {
 			tolerance_own = 2
-            global_autonomy = -0.05
+            global_autonomy = -0.1
 		}
 		province = {
 			local_missionary_strength = -0.01
@@ -1337,6 +1451,7 @@ christian = {
 		has_patriarchs = no		# Uses patriarch authority
 		misguided_heretic = yes		# Other christians hate them less
 	}
+	
 	paulician = {
 		color = { 0.5 0 0.3 }
 		icon = 42
@@ -1416,8 +1531,37 @@ christian = {
 					factor = 1
 				}
 			}
-			
-			
+		}
+	}
+
+	malankara = {
+		flags_with_emblem_percentage = 20
+		flag_emblem_index_range = { 1 4 }
+		color = { 235 90 235 }
+		icon = 75
+		country = {
+			ae_impact = -0.1
+			global_missionary_strength = 0.02
+		}
+		country_as_secondary = {
+			ae_impact = -0.15
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		heretic = { catholic lollard waldensian anglican protestant reformed bogomilist orthodox coptic malankara hussite cathar }
+		uses_church_power = yes				# Uses church power/aspect mechanics
+		aspects = {
+			hindu_syncretism
+			support_tamil_guilds
+			port_churches
+			assyrian_roots
+			persian_bishops
+			footsteps_of_thomas_the_apostles
+			coonan_cross_oath
+			council_of_chalcedon
+			hindu_advisors
+			friends_of_the_heretics
 		}
 	}
 	

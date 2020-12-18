@@ -1,7 +1,8 @@
 government = republic
-add_government_reform = genoan_republic_reform
 government_rank = 1
-mercantilism = 25
+add_government_reform = genoan_republic_reform
+
+mercantilism = 20
 primary_culture = ligurian
 add_accepted_culture = pontic_greek
 add_accepted_culture = greek
