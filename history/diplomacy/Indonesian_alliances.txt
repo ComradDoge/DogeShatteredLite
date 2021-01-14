@@ -1,0 +1,34 @@
+
+
+# Ayutthaya and Sukhothai
+vassal = {
+	first = AYU
+	second = SUK
+	start_date = 1444.11.9
+	end_date = 1530.1.1
+}
+
+
+# Ligor (Nakhon Si Thammarat)
+vassal = {
+	first = AYU
+	second = LIG
+	start_date = 1444.11.9
+	end_date = 1570.1.1
+}
+
+## Sulu
+guarantee = {
+	first = BEI
+	second = SUL
+	start_date = 1444.11.9
+	end_date = 1578.1.1
+}
+
+## Maynila
+alliance = {
+	first = TDO
+	second = MNA
+	start_date = 1444.11.9
+	end_date = 1500.1.1
+}

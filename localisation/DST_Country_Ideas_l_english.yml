@@ -1,31 +1,5 @@
 ﻿
 l_english:
- ##################################################
- ############### Britain
- ##################################################
- 
- #London
- LOD_ideas: "London Ideas"
- LOD_ideas_start: "Anglo-Saxon Tradition - Strong Cultural Bonds"
- LOD_ideas_bonus: "Anglo-Saxon Ambition - Increase Production!"
- LOD_heritage_of_londinium: "Heritage of Londinium"
- LOD_heritage_of_londinium_desc: "An old city such ours has had ample of time to fortify it's surrounding area. With that knowledge we shall fortify everything else."
- LOD_strong_foothold: "Strong Foothold"
- LOD_strong_foothold_desc: "A strong central core allows us to exert our influence far and wide."
- LOD_explorers: "London Explorers"
- LOD_explorers_desc: "With a huge treasury from our trade, it is bound to be used."
- LOD_school_of_thames: "School of Thames"
- LOD_school_of_thames_desc: "London being situated on a major river allows for easy access for educated folk from all over Europe."
- LOD_expand_navy: "Expansion of the Navy"
- LOD_expand_navy_desc: "A naval expansion is required to ensure the island we call home is protected."
- LOD_prestigious: "Prestige Abound"
- LOD_prestigious_desc: "Damn we are good."
- LOD_nationalism: "Ensure prosperity"
- LOD_nationalism_desc: "To ensure prosperity it is a requirement for able men to know the basics of war."
-
- ##################################################
- ############### Canada
- ##################################################
 
  #Vinland
  the_last_greenlander: "The Last Greenlander"
@@ -650,16 +624,16 @@ l_english:
  HEA_ideas:0 "Taiping Ideas"
  HEA_ideas_start:0 "Taiping Traditions"
  HEA_ideas_bonus:0 "Taiping Ambitions"
- HEA_one: "Great Leaders"
- HEA_one_desc: "Our generals were able to defeat profesional soldier with a bunch of rebels. We make sure to teach the next generations of their greatness."
+ HEA_one: "The Great Achievement"
+ HEA_one_desc: "We shall strive with iron in one hand and rice in the other to persuade and enforce our Holy mission upon this G*d forsaken Earth."
  HEA_two: "Military Procurement"
  HEA_two_desc: "We do not shy away from looking for the world's greatest military and buying their help."
  HEA_three: "China Will Break Before Our Forts Will"
- HEA_three_desc: "We fought hard to gain those lands. We will not give them up easily!"
- HEA_four: "Fire Benders"
- HEA_four_desc: "The Fire Nation is no more. Its people, however, had no problem finding new employer."
+ HEA_three_desc: "We fought hard to gain those lands. We will not give them up so easily!"
+ HEA_four: "The Southern Entrnace"
+ HEA_four_desc: "Being situated at the south not far from the southern trade routes but neither from the northern ones, brings us ample opportunities to take upon ourselves."
  HEA_five: "State Land"
- HEA_five_desc: "All private property ownership was abolished. Now that all land is ours, construction never was easier."
+ HEA_five_desc: "With the laws simplified and codified and proper building procedures taught we have been able to reduce the cost of construction within out great state."
  HEA_six: "Hong Rengan's Reforms"
  HEA_six_desc: "Our lands were left in a sorry state by their previous rulers. We will have much to do to again become the world's first nation."
  HEA_seven: "Gender Equality"
@@ -1203,4 +1177,22 @@ BLT_ideas:0 "Baltic Ideas"
  ALO_african_gems: "African Gems and Minerals"
  ALO_african_gems_desc: "Alodia is rich in gems and minerals, so rich in fact we can trade them with other nations at a low price and still be making a fortune. We have the best lands for mining in the world."
 
- 
+ # Occitania
+ occitan_ideas: "Occitan Ideas"
+ occitan_ideas_start: "Occitan Traditions"
+ occitan_ideas_bonus: "Occitan Ambitions"
+ religious_openmindedness: "Religious Open-mindedness"
+ religious_openmindedness_desc: "Cathars, Jews, and Mahometans have always been welcome in our lands. Continuing this tradition will ensure that new ideas can freely flow through our country."
+ paratge_traditions: "Paratge Traditions"
+ paratge_traditions_desc: "The concept of paratge has been central for our fathers. Even though the Franks have never understood it, it is something everybody should respect."
+ mediterranean_multiculturalism: "Mediterranean Multiculturalism"
+ mediterranean_multiculturalism_desc: "Our Mediterranean trade has ensured constant contact between very different cultures. This is not a challenge for us."
+ merchant_cities: "Merchant Cities"
+ merchant_cities_desc: "While our cities can be jealous of the independence of italian republics, they still enjoy a large amount of freedom. Encouraging their trade can both be good for our coffers and make sure we have access to a powerful fleet."
+ ambiguous_diplomacy: "Ambiguous Diplomacy"
+ ambiguous_diplomacy_desc: "We are used to a pragmatic diplomacy with our powerful neighbours, and must keep every option open."
+ foral_laws: "Foral Laws"
+ foral_laws_desc: "Establishing Fors will please the burgers. As long as they keep filling our coffers, let them have their little rights."
+ occitan_renaissance: "Occitan Renaissance"
+ occitan_renaissance_desc: "We are doing everything we can to bring back the glory of the civilisation of the trobar."
+  
