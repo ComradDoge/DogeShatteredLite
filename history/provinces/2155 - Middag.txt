@@ -25,7 +25,6 @@ discovered_by = QNG
 	controller = FRM
 	add_core = FRM
 	is_city = yes
-	trade_goods = jade
 }
 
 1521.1.1 = { discovered_by = SPA }

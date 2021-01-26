@@ -280,7 +280,7 @@ LML_ideas = {  #Lombard League
 }
 SMA_ideas = { #Somalia
 	start = {
-		navy_tradition = 1.00
+		navy_tradition = 1
 		naval_maintenance_modifier = -0.20
 	}
 	
@@ -320,7 +320,7 @@ SMA_ideas = { #Somalia
 LVN_MLO_ideas = {  #Lombardy-Venetia, Milan Version
 	start = {
 		mercenary_cost = -0.15
-		development_cost = -0.10
+		development_cost = -0.1
 	}
 	
 	bonus = {
@@ -769,7 +769,7 @@ WKU_ideas = {
 		num_accepted_cultures = 2
 	}
 	age_of_the_wokou = {
-		navy_tradition = 1.0
+		navy_tradition = 1
 	}
 }
 NUA_ideas = {
@@ -805,7 +805,7 @@ NUA_ideas = {
 		vassal_forcelimit_bonus = 1
 	}
 	cultivation_of_harsh_land = {
-		development_cost = -0.10
+		development_cost = -0.1
 	}
 	currency_transition = {
 		inflation_reduction = 0.10
@@ -893,7 +893,7 @@ EZO_ideas = { #Ezo
 }
 PHI_HIN_ideas = { #Lusong, Hindu Version
 	start = {
-		navy_tradition = 1.0
+		navy_tradition = 1
 		galley_power = 0.20
 	}
 	
@@ -933,7 +933,7 @@ PHI_HIN_ideas = { #Lusong, Hindu Version
 }
 PHI_BUD_ideas = { #Lusong, Buddhist/Confucian Version
 	start = {
-		navy_tradition = 1.0
+		navy_tradition = 1
 		diplomats = 1
 	}
 	
@@ -974,7 +974,7 @@ PHI_BUD_ideas = { #Lusong, Buddhist/Confucian Version
 }
 PHI_MUS_ideas = { #Lusong, Muslim Version
 	start = {
-		navy_tradition = 1.0
+		navy_tradition = 1
 		trade_efficiency = 0.15
 	}
 	
@@ -1014,7 +1014,7 @@ PHI_MUS_ideas = { #Lusong, Muslim Version
 }
 PHI_ANI_ideas = { #Lusong, Animist Version
 	start = {
-		navy_tradition = 1.0
+		navy_tradition = 1
 		no_religion_penalty = yes
 	}
 	
@@ -1122,7 +1122,7 @@ TMY_ideas = { #Tamoyo Confederation
 		infantry_power = 0.10
 	}
 	tropical_developments_of_the_tupi = {
-		development_cost = -0.15
+		development_cost = -0.1
 	}
 	resolve_tribal_feuds = {
 		legitimacy = 1
@@ -1158,10 +1158,10 @@ DOZ_ideas = { #Dongbu, Eastern State
 		trade_steering = 0.25
 	}
 	porcelain_tower_and_nanjing = {
-		development_cost = -0.10
+		development_cost = -0.1
 	}
 	anti_piracy_policies = {
-		navy_tradition = 1.0
+		navy_tradition = 1
 	}
 	defending_our_opulence = {
 		land_morale = 0.10
@@ -1197,7 +1197,7 @@ XBU_ideas = { #Xibu, Western Land
 		same_culture_advisor_cost = -0.20
 	}
 	the_four_rivers_of_sichuan = {
-		development_cost = -0.10
+		development_cost = -0.1
 	}
 	refugees_in_our_midst = {
 		global_manpower_modifier = 0.20
@@ -1298,7 +1298,7 @@ ZXI_ideas = { #The Later Xia
 	}
 	
 	bonus = {
-		development_cost = -0.10
+		development_cost = -0.1
 	}
 	
 	trigger = {
@@ -1403,7 +1403,7 @@ ZHA_ideas = { #The Later Han
 		diplomatic_upkeep = 2
 	}
 	the_issue_of_conufcianism_and_taoism = {
-		development_cost = -0.10
+		development_cost = -0.1
 	}
 	an_end_to_warring_states = { #Same for all
 		yearly_harmony = 0.5
@@ -1494,7 +1494,7 @@ ZSN_ideas = { #The Later Song
 }
 ZSU_ideas = { #The Later Sui
 	start = {
-		development_cost = -0.15
+		development_cost = -0.1
 		land_maintenance_modifier = -0.10
 	}
 	
@@ -1742,7 +1742,7 @@ BGM_WAL_ideas = { #Belgium, Wallonian Version
 	}
 	
 	bonus = {
-		development_cost = -0.15
+		development_cost = -0.1
 	}
 
 	trigger = {

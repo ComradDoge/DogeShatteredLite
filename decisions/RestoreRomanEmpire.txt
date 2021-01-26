@@ -87,15 +87,6 @@ country_decisions = {
 					owns = 341 # Tunis
 				} 
 			}
-
-
-			#owns = 343 # Fez
-			#owns = 341 # Tunis
-			#owns = 361 # Cairo
-			#owns = 236 # London
-			#owns = 245 # Yorkshire
-			#owns = 96 # Zeeland
-			#owns = 134 # Vienna
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
@@ -107,7 +98,6 @@ country_decisions = {
 			change_tag = ROM
 			restore_country_name_effect = yes
 			custom_tooltip = roman_culture_provinces_tooltip
-			custom_tooltip = form_roman_empire_split_tooltip
 			hidden_effect = {
 				every_owned_province = {
 					limit = {
@@ -126,6 +116,7 @@ country_decisions = {
 					set_in_empire = no
 				}
 			}
+			custom_tooltip = form_roman_empire_split_tooltip
 			swap_non_generic_missions = yes
 			set_government_rank = 3
 			add_prestige = 50
@@ -135,7 +126,7 @@ country_decisions = {
 			#		is_part_of_hre = yes
 			#		is_elector = no
 			#	}
-			#	every_owned_province = {
+			#	any_owned_province = {
 			#		limit = {
 			#			is_part_of_hre = yes
 			#		}
