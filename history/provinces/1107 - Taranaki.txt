@@ -3,9 +3,6 @@
 culture = polynesian
 religion = polynesian_religion
 hre = no
-owner = NZL
-controller = NZL
-add_core = NZL
 trade_goods = fur
 base_manpower = 2
 base_tax = 3 
