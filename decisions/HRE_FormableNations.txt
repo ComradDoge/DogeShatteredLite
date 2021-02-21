@@ -377,7 +377,7 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			NOT = { exists = FKN }
+			NOT = { exists = FKN tag = SGF }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -874,7 +874,6 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = HAN
-			restore_country_name_effect = yes
 			1758 = {
 				add_base_tax = 1
 			}

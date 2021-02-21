@@ -5,8 +5,8 @@ controller = LVA
 add_core = LVA
 culture = latvian
 religion = romuva
-capital = "D�naburg"
-fort_15th = yes #D�naburg
+capital = "Dunaburg"
+fort_15th = yes #Dunaburg
 trade_goods = livestock
 hre = no
 base_tax = 2 
@@ -28,8 +28,8 @@ discovered_by = eastern
 
     add_core = LIV
     
-    #culture = english
-    #religion = catholic
+    #culture =  
+    religion = catholic
     
 }
 

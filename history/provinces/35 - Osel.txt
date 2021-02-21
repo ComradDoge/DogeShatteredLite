@@ -1,4 +1,4 @@
-#�sel and Dag�, incl. Sonnenburg and Arensburg.
+#
 
 owner = EST
 controller = EST
@@ -23,8 +23,8 @@ discovered_by = eastern
 
     add_core = LIV
     
-    #culture = english
-    #religion = catholic
+    #culture =  
+    religion = catholic
     
 }
 

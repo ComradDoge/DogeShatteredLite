@@ -1,4 +1,4 @@
-#155 - B�k�s
+#155 - Bekes
 
 owner = CUM
 controller = CUM
@@ -30,7 +30,7 @@ discovered_by = ottoman
     add_core = HUN
     
     #culture = english
-    #religion = catholic
+    religion = catholic
     
 }
 
