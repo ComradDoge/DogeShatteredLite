@@ -16,7 +16,7 @@
  university_short:0 "School"
  building_university:0 "School"
 
- building_town_hall_desc:0 "\n==============================\nThe Town Hall increases the effectiveness of a state edict when the whole state is fully built with it.\n\n§YDefault§!/§YTown Hall§!/§YPalace of Justice§!/§YGovernors Residence§!\n-Defensiveness: §G15%§!/§G25%§!/§G35%§!/§G50%§!\n-Manpower: §G15%§!/§G25%§!/§G35%§!/§G50%§!\n-Trade: §G25%§!/§G50%§!/§G75%§!/§G100%§!\n-Development: §G10%§!/§G15%§!/§G20%§!/§G25%§!\n-Missionary: §G1%§!/§G1.5%§!/§G2%§!/§G2.5%§!\n-Institution: §G25%§!/§G50%§!/§G75%§!/§G100%§!\n-Ships(Time&Cost):\n§G-7.5%§!&§G10%§!/§G-15%§!&§G15%§!/§G-25%§!&§G20%§!/§G-30%§!&§G25%§!\n==============================\n"
+ building_town_hall_desc:0 "==============================\nThe Town Hall enables §YTier 2 State Edicts§! when the whole state is fully built with it.\n\n-Defensiveness: §G15%§! > §G25%§!\n-Manpower: §G15%§! > §G25%§!\n-Trade: §G25%§! > §G50%§!\n-Development: §G10%§! > §G15%§!\n-Missionary: §G1%§! > §G1.5%§!\n-Institution: §G25%§! > §G50%§!\n-Ships (Time & Cost): §G-10%§! & §R7.5%§! > §G-15%§! & §R10%§!\n==============================\n§RReaching or losing this requirement will turn off the current state edict.§!\n"
 
 
  spanish_nation_title:0 "§T@SPA Form Spanish Nation§!"
@@ -96,6 +96,8 @@
  restore_mongol_empire_title:0 "§T@MGE Restore Mongol Empire§!"
  restore_ilkhanate_decision_march_title:0 "§T@ILK Restore the Ilkhanate§!"
  restore_ilkhanate_decision_title:0 "§T@ILK Re-form the Ilkhanate§!"
+ california_nation_title:0 "§T@CAL Form Californian Nation§!"
+ texas_nation_title:0 "§T@TEX Form Texan Nation§!"
  scottish_nation_title:0 "§T@SCO Form Scottish Nation§!"
  sultan_of_delhi_title:0 "§T@DLH Sultan of Delhi§!"
  nepal_nation_title:0 "§T@NPL Unification of Nepal§!"
@@ -110,6 +112,8 @@
  tatar_nation_title:0 "§T@GLH Re-form the Golden Horde§!"
  tuscan_nation_title:0 "§T@TUS Form Tuscany§!"
  australia_nation_title:0 "§T@AUS Form Australian Nation§!"
+ icelandic_nation_title:0 "§T@ICE Embrace Icelandic Identity§!"
+
 
 
  # maghreb_formations_l_english
@@ -170,6 +174,8 @@
 
  
  # EU4_l_english
+ POLICY_POSSIBLE:0 ""
+
  charter_university:0 "Fund Expansion of Schools"
  hannoverian_nation_title:0 "§T@HAN Form Hanover§!"
  westfalian_nation_title:0 "§T@WES Form Westphalia§!"
@@ -357,12 +363,13 @@
 
 
  # modifiers_l_english
- habsburg_nation_title:1 "§T@HAB Reclaim the @HAB Archduchy of Austria§!"
+ habsburg_nation_title:1 "§T@HAB Reclaim the Archduchy of Austria§!"
 
  # rights_of_man_l_english
  CULT_HELP_DESC:0 ""
 
  # emperor_content_l_english
+ switzerland_nation_title:0 "§T@SWI Restore the Swiss Confederacy§!"
  two_sicilies_nation_title:0 "§T@TTS Unite the Two Sicilies§!"
  bavaria_nation_title:0 "§T@BAV Form Bavaria§!"
  pomerania_nation_title:0 "§T@POM Form Pomerania§!"
@@ -376,6 +383,7 @@
  west_indies_nation_title:0 "§T@WSI Form Caribbean Nation§!"
  vermont_nation_title:1 "§T@VRM Form Vermonter Nation§!"
  sonora_nation_title:0 "§T@SNA Form Sonora Nation§!"
+ florida_nation_title:0 "§T@FLO Form Floridian Nation§!"
  cuba_nation_title:0 "§T@CUB Form Cuban Nation§!"
  illinois_nation_title:0 "§T@ILI Form Illinoisan Nation§!"
 

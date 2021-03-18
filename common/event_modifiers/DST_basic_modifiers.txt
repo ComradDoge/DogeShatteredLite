@@ -1,3 +1,0 @@
-meta_add_culture_amount_4 = {
-    num_accepted_cultures = 4
-}

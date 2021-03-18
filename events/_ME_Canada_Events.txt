@@ -251,52 +251,52 @@ country_event = {
 }
 
 # North American Act
-country_event = {
-	id = ME_Canada_Events.6
-	title = ME_Canada_Events.6.T
-	desc = ME_Canada_Events.6.D
-	picture = BIG_BOOK_eventPicture
-
-	is_triggered_only = yes
-
-	trigger = {
-		is_expanded_mod_active = { mod = subjects }
-	}
-
-	option = {
-		name = ME_Canada_Events.6.OPT1
-
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 1.2
-				ai = yes
-			}
-		}
-		add_prestige = -20
-		create_subject = {
-			subject_type = autonomous_dominion
-			subject = FROM
-		}
-	}
-
-	option = {
-		name = ME_Canada_Events.6.OPT2
-
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 0.8
-				ai = yes
-			}
-		}
-		add_prestige = 20
-		FROM = {
-			add_liberty_desire = 35
-			country_event = { id = ME_Canada_Events.7 }
-		}
-	}
-}
+#country_event = {
+#	id = ME_Canada_Events.6
+#	title = ME_Canada_Events.6.T
+#	desc = ME_Canada_Events.6.D
+#	picture = BIG_BOOK_eventPicture
+#
+#	is_triggered_only = yes
+#
+#	trigger = {
+#		is_expanded_mod_active = { mod = subjects }
+#	}
+#
+#	option = {
+#		name = ME_Canada_Events.6.OPT1
+#
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				factor = 1.2
+#				ai = yes
+#			}
+#		}
+#		add_prestige = -20
+#		create_subject = {
+#			subject_type = autonomous_dominion
+#			subject = FROM
+#		}
+#	}
+#
+#	option = {
+#		name = ME_Canada_Events.6.OPT2
+#
+#		ai_chance = {
+#			factor = 50
+#			modifier = {
+#				factor = 0.8
+#				ai = yes
+#			}
+#		}
+#		add_prestige = 20
+#		FROM = {
+#			add_liberty_desire = 35
+#			country_event = { id = ME_Canada_Events.7 }
+#		}
+#	}
+#}
 
 # A Look for outside Support?
 country_event = {
@@ -604,113 +604,25 @@ country_event = {
 
 	option = {
 		name = ME_Canada_Events.12.OPT1
-		trigger = {
-			is_expanded_mod_active = { mod = trade_goods }
-		}
-
+		
 		ai_chance = {
-			factor = 50
+			factor = 90
 		}
 		custom_tooltip = CUISINES_OF_CANADA.TT
 		hidden_effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				2012 = { change_trade_goods = maple_syrup }
-				2584 = { change_trade_goods = maple_syrup }
-				2583 = { change_trade_goods = maple_syrup }
-				2581 = { change_trade_goods = maple_syrup }
-				992 = { change_trade_goods = maple_syrup }
-				1001 = { change_trade_goods = maple_syrup }
-				998 = { change_trade_goods = maple_syrup }
-				2671 = { change_trade_goods = maple_syrup }
-				2588 = { change_trade_goods = maple_syrup }
-				995 = { change_trade_goods = maple_syrup }
-				998 = { change_trade_goods = maple_syrup }
-				999 = { change_trade_goods = maple_syrup }
-				993 = { change_trade_goods = maple_syrup }
-			}
-			else = {
-				2012 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				2584 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				2583 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				2581 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				992 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				1001 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				998 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				2671 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				2588 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				995 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				998 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				999 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-				993 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-			}
+			2012 = { change_trade_goods = maple_syrup }
+			2584 = { change_trade_goods = maple_syrup }
+			2583 = { change_trade_goods = maple_syrup }
+			2581 = { change_trade_goods = maple_syrup }
+			992 = { change_trade_goods = maple_syrup }
+			1001 = { change_trade_goods = maple_syrup }
+			998 = { change_trade_goods = maple_syrup }
+			2671 = { change_trade_goods = maple_syrup }
+			2588 = { change_trade_goods = maple_syrup }
+			995 = { change_trade_goods = maple_syrup }
+			998 = { change_trade_goods = maple_syrup }
+			999 = { change_trade_goods = maple_syrup }
+			993 = { change_trade_goods = maple_syrup }
 		}
 		canada_region = {
 			limit = {
@@ -723,9 +635,9 @@ country_event = {
 
 	option = {
 		name = ME_Canada_Events.12.OPT2
-		add_prestige = 20
+		add_prestige = 25
 		ai_chance = {
-			factor = 50
+			factor = 10
 		}
 		canada_region = {
 			limit = {
@@ -749,34 +661,13 @@ country_event = {
 	option = {
 		name = ME_Canada_Events.13.OPT1
 		custom_tooltip = CAN_MAPLE_SYRUP.TT
-		trigger = {
-			is_expanded_mod_active = { mod = trade_goods }
-		}
+		
 		ai_chance = {
 			factor = 50
 		}
 
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-			2580 = { change_trade_goods = maple_syrup }
-			2579 = { change_trade_goods = maple_syrup }
-		}
-		else = {
-			2580 = {
-				add_province_modifier = {
-					name = can_maple_syrup_modifier
-					duration = -1
-				}
-			}
-			2579 = {
-					add_province_modifier = {
-						name = can_maple_syrup_modifier
-						duration = -1
-					}
-				}
-		}
+		2580 = { change_trade_goods = maple_syrup }
+		2579 = { change_trade_goods = maple_syrup }
 	}
 
 	option = {
@@ -889,22 +780,7 @@ country_event = {
 		}
 
 		FROM = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = subjects }
-					can_create_subject_type = {
-						subject = ROOT
-						subject_type = native_reserve
-					}
-				}
-				create_subject = {
-					subject_type = native_reserve
-					subject = FROM
-				}
-			}
-			else = {
-				vassalize = ROOT
-			}
+			vassalize = ROOT
 		}
 	}
 

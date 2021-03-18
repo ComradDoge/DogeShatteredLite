@@ -24,8 +24,8 @@ dse_meta_info.1.t: "§T1.30 Doge Shattered Europe§!"
 dse_meta_info.1.d: "Welcome to §BDoge Shattered Europe§!! Thank you very much for playing my mod and I hope you enjoy it.\n\n    §RPlease make additional saves and not play on ironman if possible for your own sake.§!\n\nJoin my discord so in case of crashes you can contact me. I will try my best to fix the save so you can continue and at minimum fix the underlying issue. Additionally, you can come and get the Shattered role (in §B#pick-roles§!) to receive pings when I update the mod and post changelog, or make polls regarding it.\n\nDiscord Code: §G DwNbtWY §!"
 dse_meta_info.1.o1: "Alright"
 
-dse_meta_info.2.t: "§TCombat Width Reduction§!"
-dse_meta_info.2.d: "The mod changes how combat width progress in the late game, instead of going up it decreases back to 30 to simulate the decrease of numerical advantage and increase of fire power. Unfortunately, the game does not show negative combat width in the tech screen, however whenever you get the mil tech you will see the changed width in the military tab.\n\n\nThe combat width changes are at:\n34/-2\n37/-3\n38/-2\n40/-3"
+dse_meta_info.2.t: "§T EMPTY EVENT §!"
+dse_meta_info.2.d: ""
 dse_meta_info.2.o1: "Got It"
 ##############
 ##############
@@ -66,6 +66,10 @@ dse_meta_fixes.5.o5: "Taira - Light Prussian Blue"
 dse_meta_fixes.5.o6: "Kenmu - Beige"
 dse_meta_fixes.5.o7: "Japan - Red"
 
+dse_meta_fixes.6.t: "Remove Province Modifiers"
+dse_meta_fixes.6.d: "This is to remove various specific provinces modifiers"
+dse_meta_fixes.6.o1: "Town Rights"
+
 #############
 #############
 #############
@@ -73,3 +77,11 @@ dse_meta_fixes.5.o7: "Japan - Red"
 ############# 
 the_fix_title: "§RME:§! Warning - Refresh Missions"
 the_fix_desc: "Do not click this out of stupid curiousity as it might fuck up your missions due to how the game works. Click this only if a new mission is added/updated and specified in the changelogs or if for some reason they are broken fully.\n\nThis is to sometimes refresh missions if they bug out or break after my updates. Check your missions if they have changed, if nothing is happening after clicking this then nothing was supposed to happen."
+empire_dismantled.tooltip: "The Empire is dismantled."
+
+#############
+#############
+#############
+# Estates #
+############# 
+no_other_governing_capacity_privilege: "Has no other Estate Privilege that grants §YGoverning Capacity§!"

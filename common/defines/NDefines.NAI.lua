@@ -192,8 +192,8 @@ NDefines.NAI.HOME_FLEET_MAX_RATIO = 0.6 --Maximum proportion of warships in home
 	--HOME_FLEET_MAX_RATIO = 0.85
 
  -- AI will not develop provinces that have more development than this or DEVELOPMENT_CAP_MULT*original development (whichever is bigger)
-NDefines.NAI.DEVELOPMENT_CAP_BASE = 100 --set to 3 manually if using dev-click setting
-NDefines.NAI.DEVELOPMENT_CAP_MULT = 20  --set to 1 manually if using dev-click setting
+NDefines.NAI.DEVELOPMENT_CAP_BASE = 60 -- Default 10
+NDefines.NAI.DEVELOPMENT_CAP_MULT = 5  -- Default 2
 
 NDefines.NAI.ARTILLERY_FRACTION = 0.25 --Ratio of artillery to infantry AI will build.
 	--ARTILLERY_FRACTION = 0.35
@@ -229,10 +229,10 @@ NDefines.NAI.ESTATE_MAX_PRIVILEDGES = 4
 
 
 NDefines.NAI.TRADE_COMPANY_INVESTMENT_COST_THRESHOLD = 2 -- How many times the cost of the investment must be in the treasury to consider buying it
-NDefines.NAI.REPAY_LOAN_BASE_AI_DESIRE = 10	-- AI scoring for repaying loans, multiplied by (MAX(budget - other loans, 0) * number_of_loans)/cost
+NDefines.NAI.REPAY_LOAN_BASE_AI_DESIRE = 100 -- AI scoring for repaying loans, multiplied by (MAX(budget - other loans, 0) * number_of_loans)/cost
 
 
-NDefines.NAI.AGGRESSIVENESS = 400
-NDefines.NAI.AGGRESSIVENESS_BONUS_EASY_WAR = 400
+NDefines.NAI.AGGRESSIVENESS = 500
+NDefines.NAI.AGGRESSIVENESS_BONUS_EASY_WAR = 600
 
 NDefines.NAI.POWERBALANCE_DISABLE_VERSUS_PLAYER = 0 --0 is vanilla
