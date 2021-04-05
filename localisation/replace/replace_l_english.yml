@@ -25,7 +25,7 @@
  french_nation_title:0 "§T@FRA Form French Nation§!"
  british_nation_title:0 "§T@GBR Form British Nation§!"
  egyptian_nation_title:0 "§T@EGY Form Egypt§!"
- russian_nation_title:0 "§T@RUS Form Russian Nation§!"
+ russian_nation_title:0 "§T@RUS Form Russian Empire§!"
  scandinavian_nation_title:0 "§T@SCA Form Scandinavian Nation§!"
  arab_nation_title:0 "§T@ARB Form Arabia§!"
  form_manchu_dynasty_title:0 "§T@QNG Qing Dynasty§!"
@@ -53,7 +53,8 @@
  sardinia_piedmont_nation_inherit_title:1 "§T@SPI Form Sardinia-Piedmont Diplomatically§!"
  prussian_nation_title:0 "§T@PRU Reform into Prussia§!"
  prussian_nation_general_title:0 "§T@PRU Reform into Prussia§!"
-  tibetan_nation_title:0 "§T@TIB Form Tibetan Nation§!"
+ tibetan_nation_title:0 "§T@TIB Form Tibetan Nation§!"
+ incan_nation_title:0 "§T@INCTawantinsuyu, the Empire of the Incas§!"
 
 
  CALLTITLE:0 "A Call to Arms!"
@@ -507,3 +508,10 @@
 
  #government_l_english
  mechanic_maratha_general_interaction_yes:1 "Enables the Marathas Estate Privilege §YMaratha Military Leadership§!, which grants a maximum of §G+10%§! discipline and §R-30%§! tax income, scaled by Maratha land ownership."
+
+
+
+
+ # common_sense
+
+ enforce_culture_desc:0 "Changes the primary culture of a subject to yours (§Y$CULTURE$§!). It will change their Liberty Desire by $LD$. It will also cost us $DIP$£dip  due to their total development."
