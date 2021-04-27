@@ -1,4 +1,4 @@
-name="1.30 Doge LITE Shattered Europa"
+name="1.31 Doge LITE Shattered Europa"
 replace_path="history/diplomacy"
 replace_path="common/bookmarks"
 tags={
@@ -8,6 +8,6 @@ tags={
 	"Alternative History"
 	"Missions"
 }
-supported_version="1.30.*.*"
+supported_version="1.31.*.*"
 picture = "thumbnail.png"
 path="mod/DogeShatteredLite"
