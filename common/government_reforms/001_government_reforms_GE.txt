@@ -866,12 +866,12 @@ gunpowder_weapons_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = {
-		OR = {
-			technology_group = south_african
-			#technology_group = west_african
-			#technology_group = east_african
-			technology_group = central_african
-		}
+			OR = {
+				#technology_group = south_african
+				#technology_group = west_african
+				technology_group = east_african
+				technology_group = central_african
+			}
 		}
 	}
 	modifiers = {
@@ -889,12 +889,12 @@ traditionalist_african_reform = {
 	icon = soldiers_4
 	allow_normal_conversion = yes
 	potential = {
-		OR = {
-			technology_group = south_african
-			#technology_group = west_african
-			#technology_group = east_african
-			technology_group = central_african
-		}
+			OR = {
+				#technology_group = south_african
+				#technology_group = west_african
+				technology_group = east_african
+				technology_group = central_african
+			}
 	}
 	modifiers = {
 		infantry_power = 0.10
@@ -910,12 +910,12 @@ gunpowder_weapons_african_reform = {
 	icon = national_guard
 	allow_normal_conversion = yes
 	potential = {
-		OR = {
-			technology_group = south_african
-			#technology_group = west_african
-			#technology_group = east_african
-			technology_group = central_african
-		}
+			OR = {
+				#technology_group = south_african
+				#technology_group = west_african
+				technology_group = east_african
+				technology_group = central_african
+			}
 	}
 	modifiers = {
 		fire_damage = 0.05
@@ -931,20 +931,20 @@ african_jungle_warrior_reform = {
 	icon = tribal_martial_society
 	allow_normal_conversion = yes
 	potential = {
-		OR = {
-			technology_group = south_african
-			#technology_group = west_african
-			#technology_group = east_african
-			technology_group = central_african
-		}
+			OR = {
+				#technology_group = south_african
+				#technology_group = west_african
+				technology_group = east_african
+				technology_group = central_african
+			}
 	}
 	trigger = {
-		OR = {
-			technology_group = south_african
-			#technology_group = west_african
-			#technology_group = east_african
-			technology_group = central_african
-		}
+			OR = {
+				#technology_group = south_african
+				#technology_group = west_african
+				technology_group = east_african
+				technology_group = central_african
+			}
 	}
 	modifiers = {
 		shock_damage = 0.05
