@@ -39,7 +39,8 @@ capital = 600 # Ayutthaya
 		mil = 4
 		leader = { 
 			name = "Borommaracha II"
-			type = general
+			type = general
+
 			fire = 2	
 			shock = 4	
 			manuever = 3	
@@ -275,8 +276,8 @@ capital = 600 # Ayutthaya
 		adm = 0
 		dip = 1
 		mil = 0
-	}
-	government_rank = 2
+	government_rank = 1
+	government_rank = 1
 }
 
 1569.1.1 = {
@@ -308,8 +309,8 @@ capital = 600 # Ayutthaya
 	}
 }
 
-1584.5.3 = {
-	government_rank = 2
+1government_rank = 1
+	government_rank = 1
 }
 
 1590.7.1 = {
