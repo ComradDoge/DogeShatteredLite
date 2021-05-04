@@ -1001,6 +1001,7 @@ mandala_reform = {
 			religion = animism
 		}
 		technology_group = chinese
+		has_dlc = "Leviathan"
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 10
@@ -1013,12 +1014,13 @@ mandala_reform = {
 			religion_group = muslim
 		}
 		technology_group = chinese
+		has_dlc = "Leviathan"
 	}
 	legacy_equivalent = despotic_monarchy
 	modifiers = {
 		vassal_income = 0.15
 		vassal_forcelimit_bonus = 1
-		governing_capacity = 50
+		governing_capacity_modifier = -0.33
 	}
 	free_concentrate_development = yes
 }
@@ -1175,7 +1177,7 @@ confucian_bureaucracy = {
 }
 
 sakdina_system_reform = {
-	icon = "warrior_monks_reform" #TODO
+	icon = "sakdina_system_reform"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
@@ -1202,7 +1204,7 @@ sakdina_system_reform = {
 }
 
 uparaja_reform = {
-	icon = "warrior_monks_reform" #TODO
+	icon = "uparaja_reform"
 	allow_normal_conversion = yes
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0

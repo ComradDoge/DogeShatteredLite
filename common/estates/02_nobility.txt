@@ -355,14 +355,14 @@ estate_nobles =
 				tag = SAM
 			}
 			primary_culture = polynesian
-			religion = animism
+			religion = polynesian_religion
 		}
 	}
 	custom_name = {
 		desc = estate_ariki
 		trigger = {
 			primary_culture = maori
-			religion = animism
+			religion = polynesian_religion
 		}
 	}
 	custom_name = {
@@ -370,7 +370,7 @@ estate_nobles =
 		trigger = {
 			tag = TOG
 			primary_culture = polynesian
-			religion = animism
+			religion = polynesian_religion
 		}
 	}
 	custom_name = {
@@ -381,7 +381,7 @@ estate_nobles =
 				tag = VIL
 				tag = VNL
 			}
-			religion = animism
+			religion = polynesian_religion
 		}
 	}
 	
