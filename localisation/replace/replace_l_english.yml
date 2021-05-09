@@ -167,7 +167,7 @@
  polish_nation_title:0 "§T@POL Form Polish Nation§!"
  tatar_nation_title:0 "§T@GLH Re-form the Golden Horde§!"
  tuscan_nation_title:0 "§T@TUS Form Tuscany§!"
- australia_nation_title:0 "§T@AUS Form Australian Nation§!"
+ australia_nation_title:0 "§T@AUS Form Australia§!"
  icelandic_nation_title:0 "§T@ICE Embrace Icelandic Identity§!"
 
 
@@ -230,6 +230,9 @@
 
  
  # EU4_l_english
+ ARMY_LEADER_LABEL:0 "£general_16£ Army: $CURR$/$FREE$$MISSION$"
+ NAVY_LEADER_LABEL:0 "£admiral_16£ Navy: $CURR$/$FREE$$MISSION$"
+
  POLICY_POSSIBLE:0 ""
 
  charter_university:0 "Fund Expansion of Schools"
@@ -574,12 +577,14 @@
 
  # lanfang
  siamese_nation_title:0 "§T@SIA Form Siamese Nation§!"
+ lanfang_decision_title:0 "§T@LFA Invite Kongsi Federations for Settlement§!"
+ lanfang_decision_formation_title:0 "§T@LFA Invite Kongsi Federations§!"
 
-# leviathan
+ # leviathan
  unite_fiji_title:0 "§T@VIT Unite Fiji§!"
-unite_hawaii_title:0 "§T@UHW Unite Hawaii§!"
+ unite_hawaii_title:0 "§T@UHW Unite Hawaii§!"
+ aotearoa_nation_title:0 "§T@AOT Form Aotearoa§!"
 
-# TEMP FIXES DUE TO LEVIATHAN ISSUES
  IS_CURRYING_FAVORS: "We are already currying favors with $WHO$."
  IS_NOT_CURRYING_FAVORS: "But we are not currying favors with $WHO$."
  CURRYFAVORSDESC: "Curry favours with them will increase our favors over time."
@@ -590,5 +595,13 @@ unite_hawaii_title:0 "§T@UHW Unite Hawaii§!"
  CURRYFAVORSTITLE: "Curry Favors"
  CANCEL_CURRYFAVORS: "Cancel Curry Favors"
  CANCEL_CURRYFAVORSTITLE: "Cancel Curry Favors"
- current_guru_text: "§GCurrent:§!"
- next_guru_text: "§YNext:§!"
+ CONFIRM_SELECT_TEACHING_DESC: "Are you sure you want to select the teaching $NAME|Y$? The teaching will cost us $COST|Y$ $POWER$ power and comes with the modifier:\n$MOD$"
+
+ # TMM_l
+ CURRENT_GURU: "§GCurrent Guru§!"
+ NEXT_GURU: "§YNext Guru§!"
+ 
+ CONFIRM_CONSOLIDATE_DEVELOPMENT_TEXT_FOR_ANOTHER:0 "Channel development from §Y$NAME$§! for $ACTUALTAKER$. Much of the development lost will end up in the $ACTUALTAKERADJ$ capital, some will be distributed amongst their other states, some will be lost.\n\n- This state will lose $DEVELOPMENT|Y$ development.\n- In total, they will gain $DEVGAINED|Y$ development."
+ CONFIRM_CONSOLIDATE_DEVELOPMENT_TEXT:1 "Channel development from §Y$NAME$§! for our own needs. Much of the development lost will end up in our capital, some will be distributed amongst our other states, some will be lost.\n\n- This state will lose $DEVELOPMENT|Y$ development.\n- In total, we will gain $DEVGAINED|Y$ development."
+ CONFIRM_CONSOLIDATE_DEVELOPMENT_SUBJECT:0 ""
+ CANNOT_CONCENTRATE_DEVELOPMENT_WRONG_SUBJECT_TYPE: "The following subjects cannot have their development stolen :\n - §YColonial Nations§!\n - §YTributaries§!\n - §YDaimyos§!"

@@ -1,4 +1,18 @@
 ﻿l_english:
+ #Iberia
+ algarve_sagres_school_navigation: "Sagres School of Navigation"
+ alicante_santa_barbara_castle: "Santa Barbara Castle"
+ cordoba_mosque_cathedral: "Mosque-Cathedral of Cordoba"
+ corunna_basilica_santiago_compostela: "Santiago de Compostela Cathedral"
+ corunna_tower_hercules: "Tower of Hercules"
+ gibraltar_rock_gibraltar: "Rock of Gibraltar"
+ jaen_tierra_castillos: "Tierra de Castillos"
+ lisboa_belem_tower: "Belém Tower"
+ madrid_el_escorial: "El Escorial"
+ segovia_alcazar_segovia: "Alcazar of Segovia"
+ seville_al_qasr_al_muriq: "Al-Qasr al-Muriq"
+ seville_casa_de_contratacion: "Casa de Contratación"
+
  #Italy
  bologna_universita_bologna: "Università di Bologna"
  florence_cattedrale_santa_maria_fiore: "Santa Maria del Fiore"
@@ -14,7 +28,21 @@
  rome_arco_costantino: "Arco di Costantino"
  rome_castel_sant_angelo: "Castel Sant' Angelo"
  rome_colosseo: "Colosseo"
- saint_peters_cathedral: "Patrimonium Sancti Petri"
+ stpeters_cathedral: "Patrimonium Sancti Petri"
  venice_arsenale_veneziano: "Arsenale Veneziano"
  venice_palazzo_dogale: "Palazzo Dogale"
  venice_basilica_san_marco: "Basilica di San Marco"
+
+ # Germany
+ paderborn_externsteine: "Externsteine"
+ paderborn_schloss_neuhaus: "Neuhaus Palace"
+ berlin_reichstag: "Reichstag"
+ berlin_brandenburg_gate: "Brandenburg Gate"
+
+ # Balkans
+ athens_vouli: "Vouli"
+ achaea_statue_of_zeus: "Statue of Zeus"
+ constantinople_theodosian_walls: "Theodosian Walls"
+ 
+ # Japan
+ settsu_osaka_castle: "Osaka Castle"
