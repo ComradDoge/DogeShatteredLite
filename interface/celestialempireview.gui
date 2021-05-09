@@ -26,7 +26,7 @@ guiTypes = {
 			position = { x = -90 y = 130 }
 			format = centre
 			textureFile = ""
-			font = "cg_18"
+			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "CELESTIAL_CELESTIAL"
 			maxWidth = 584
@@ -38,7 +38,7 @@ guiTypes = {
 			name = "influence_label"
 			position = { x = 300 y = 227 }
 			textureFile = ""
-			font = "cg_20b"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "CELESTIAL_MANDATE"
 			maxWidth = 200
@@ -50,7 +50,7 @@ guiTypes = {
 			name = "influence_value"
 			position = { x = 347 y = 287 }
 			textureFile = ""
-			font = "cg_20b"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = ""	
 			maxWidth = 100
@@ -63,7 +63,7 @@ guiTypes = {
 			name = "influence_growth"
 			position = { x = 347 y = 257 }
 			textureFile = ""
-			font = "cg_20b"
+			font = "vic_18"
 			borderSize = {x = 0 y = 0}
 			text = "0.00"	
 			maxWidth = 100
@@ -80,7 +80,7 @@ guiTypes = {
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			buttonFont = "cg_18"
+			buttonFont = "vic_18"
 			hint_tag = "hint_emperor"
 		}
 			
@@ -104,7 +104,7 @@ guiTypes = {
 			name = "decree_label"
 			position = { x = 307 y = 341 }
 			textureFile = ""
-			font = "cg_18"
+			font = "vic_18"
 			borderSize = {x = 4 y = 0}
 			text = "CELESTIAL_DECREES"
 			maxWidth = 172
@@ -116,7 +116,7 @@ guiTypes = {
 			name = "tributary_label"
 			position = { x = 309 y = 521 }
 			textureFile = ""
-			font = "cg_18"
+			font = "vic_18"
 			borderSize = {x = 4 y = 0}
 			text = "CELESTIAL_TRIBUTARIES"
 			maxWidth = 172
@@ -140,7 +140,7 @@ guiTypes = {
 			name = "decisions_label"
 			position = { x = 520 y = 135 }
 			textureFile = ""
-			font = "cg_18"
+			font = "vic_18"
 			borderSize = {x = 4 y = 0}
 			text = "CELESTIAL_DECISIONS"
 			maxWidth = 144
@@ -192,7 +192,7 @@ guiTypes = {
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = "CELESTIAL_CLOSE"
-			buttonFont = "cg_18"
+			buttonFont = "vic_18"
 			clicksound = close_window
 			shortcut = "ESCAPE"
 		}
@@ -206,7 +206,7 @@ guiTypes = {
 		tooltip = ""
 		tooltipText =""
 		delayedTooltipText = ""
-		buttonFont = "cg_18"
+		buttonFont = "vic_18"
 	}
 
 	positionType = {
