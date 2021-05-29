@@ -5,14 +5,6 @@ tribe_mechanic = {
 	valid_for_nation_designer = no
 	heir = yes
 	queen = yes
-
-	custom_attributes = {
-		enables_aristocratic_idea_group = no
-		enables_plutocratic_idea_group = no
-		#enables_diktatur_idea_group = no
-		#enables_theokratie_idea_group = no
-		enables_horde_idea_group = yes
-	}
 }
 
 steppe_horde = {
@@ -146,6 +138,13 @@ polynesian_tribe = {
 	allow_migration = yes
 	fixed_rank = 1
 	lock_level_when_selected = yes
+
+	factions = {
+		pr_fishermen
+		pr_craftsmen
+		pr_rich_family
+	}
+
 	modifiers = {
 		global_manpower_modifier = 0.2
 	}
@@ -160,6 +159,13 @@ polynesian_kingdom = {
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 0
+
+	factions = {
+		pr_fishermen
+		pr_craftsmen
+		pr_rich_family
+	}
+
 	modifiers = {
 		naval_forcelimit_modifier = 0.2
 		range = 0.2
@@ -197,6 +203,9 @@ stateless_society = {
 		governing_capacity_modifier = -0.99
 		defensiveness = 0.75
 		land_morale = 0.15
+	}
+	ai = {
+		factor = 0
 	}
 }
 
